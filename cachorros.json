@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Rex",
+    "raca": "Labrador",
+    "idade": 3,
+    "peso": 32.5,
+    "ultima_refeicao": "2026-06-15 12:30:00"
+  },
+  {
+    "nome": "Luna",
+    "raca": "Poodle",
+    "idade": 2,
+    "peso": 6.7,
+    "ultima_refeicao": "2026-06-15 12:00:00"
+  },
+  {
+    "nome": "Thor",
+    "raca": "Caramelo",
+    "idade": 5,
+    "peso": 15.0,
+    "ultima_refeicao": "2026-06-15 01:15:00"
+  }
+]
