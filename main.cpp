@@ -1,4 +1,13 @@
 #include <ESP32Servo.h>
+Servo tampa;
+Servo racao1;
+Servo racao2;
+Servo racao3;
+
+const int PINO_TAMPA = 13;
+const int PINO_RACAO1 = 18;
+const int PINO_RACAO2 = 25;
+const int PINO_RACAO3 = 15;
 
 short int qualRacao(){
 }
@@ -71,15 +80,6 @@ void Liberar_racao3(int grams){
     tampa.write(0);
 }
 
-Servo tampa;
-Servo racao1;
-Servo racao2;
-Servo racao3;
-
-const int PINO_TAMPA = 18;
-const int PINO_RACAO1 = 19;
-const int PINO_RACAO2 = 21;
-const int PINO_RACAO3 = 25;
 
 void setup() {
     tampa.attach(PINO_TAMPA);
@@ -97,7 +97,15 @@ void setup() {
 
 void loop() {
     //aqui deve fiar a logica de acionamento de acordo com cada achorro que foi detectado
+    delay(15000);
+    Liberar_racao2(0);
+
+    delay(15000);
+
+    /* 
+    Liberar_racao2(0);
+    delay(15000);
+    Liberar_racao3(0);
+    delay(15000);
+    */
 }
-
-
-
