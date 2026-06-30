@@ -16,7 +16,7 @@ const int PINO_RACAO3 = 15;
 
 // Pinos da comunicação serial com a ESP32-S3 (câmera)
 const int RXD1 = 16; // recebe da câmera (TX da câmera -> aqui)
-const int TXD1 = 17; // livre, mas deixado disponível pra debug/ACK futuro
+const int TXD1 = 17; 
 
 HardwareSerial CameraSerial(1); // UART1
 
